@@ -1,0 +1,18 @@
+.flashCard{
+    background-color: rgb(70, 124, 210);
+    max-width: 500px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+.flashCard h2{
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+.flashCard p{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}

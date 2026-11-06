@@ -1,0 +1,11 @@
+ID,pregunta,descriptor,respuesta
+1,¿Qué es Papa Parse?,CSV,Es una biblioteca JavaScript para leer y generar archivos CSV.
+2,¿Qué hace Papa.parse()?,CSV,Lee y convierte un archivo CSV en datos JavaScript.
+3,¿Qué hace header:true?,Configuración,Utiliza la primera fila como nombres de propiedades.
+4,¿Qué hace skipEmptyLines?,Configuración,Ignora las filas vacías del archivo CSV.
+5,¿Qué contiene resultado.data?,Datos,Contiene los registros del CSV en un array.
+6,¿Qué hace forEach()?,JavaScript,Recorre todos los elementos de un array.
+7,¿Qué hace filter()?,JavaScript,Filtra elementos de un array según una condición.
+8,¿Qué hace innerHTML?,HTML,Permite leer o modificar el contenido HTML de un elemento.
+9,¿Qué hace createElement()?,DOM,Crea un nuevo elemento HTML mediante JavaScript.
+10,¿Qué hace after()?,DOM,Inserta un elemento HTML inmediatamente después de otro.

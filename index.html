@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/background.css">
+     <link rel="shortcut icon" href="resources/9145760.png" />
+    <title>flashy</title>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="./resources/flashy.png" alt="Logo Flashy" class="logo">
+    </div>
+    <p class="subpicture">Tu plataforma de estudio para alcanzar tu 10!</p>
+    <h2 class="header">Carga tu archivo CSV para implementar las cartas</h2>
+    <section class="csv-help">
+        <h3>Formato del archivo CSV</h3>
+        <p>Tu archivo debe contener las siguientes columnas:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>pregunta</th>
+                    <th>descriptor</th>
+                    <th>respuesta</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>¿Qué es JavaScript?</td>
+                    <td>Lenguaje</td>
+                    <td>Un lenguaje de programación.</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>¿Qué es PapaParse?</td>
+                    <td>Biblioteca</td>
+                    <td>Una biblioteca para procesar CSV.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ul>
+            <li>Respeta los nombres de las columnas.</li>
+            <li>Cada fila representa una flashcard.</li>
+            <li>El ID debe ser único y numérico.</li>
+            <li>No dejes campos obligatorios vacíos.</li>
+        </ul>
+        <a href="./resources/mock.csv">Descarga un ejemplo de prueba</a>
+    </section>
+    <input type="file" name="fileInput" id="fileInput" accept=".csv">
+    <div id="flashCards">
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
+<script src="./scripts/reading.js"></script>
+</html>
